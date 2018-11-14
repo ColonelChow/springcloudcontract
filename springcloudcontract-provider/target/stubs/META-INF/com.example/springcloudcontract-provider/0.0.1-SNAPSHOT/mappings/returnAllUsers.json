@@ -1,0 +1,16 @@
+{
+  "id" : "558476c8-c47f-4716-be06-2a48d06903f3",
+  "request" : {
+    "url" : "/api/users",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"data\":[{\"name\":\"zhang\",\"id\":\"1\"},{\"name\":\"zhang2\",\"id\":\"2\"}]}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "558476c8-c47f-4716-be06-2a48d06903f3"
+}

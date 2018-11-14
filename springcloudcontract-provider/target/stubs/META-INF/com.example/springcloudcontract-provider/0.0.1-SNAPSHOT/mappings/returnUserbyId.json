@@ -1,0 +1,21 @@
+{
+  "id" : "a75f9be4-1f7a-4f07-86fe-ca24025f8138",
+  "request" : {
+    "urlPath" : "/api/userById",
+    "method" : "GET",
+    "queryParameters" : {
+      "id" : {
+        "equalTo" : "123"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"zhang\",\"id\":\"123\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "a75f9be4-1f7a-4f07-86fe-ca24025f8138"
+}
