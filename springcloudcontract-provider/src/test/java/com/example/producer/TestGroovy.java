@@ -7,6 +7,6 @@ public class TestGroovy {
     @Test
     public void  test(){
         Hello hello = new Hello();
-        hello.sayHello();
+        hello.sayHello("zhangsan");
     }
 }

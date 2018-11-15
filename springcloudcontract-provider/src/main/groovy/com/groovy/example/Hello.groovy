@@ -1,10 +1,10 @@
 package com.groovy.example
 
 class Hello {
-    public static void main(String[] args) {
+     static void main(String[] args) {
         println("hello world")
     }
-    public void sayHello(){
-        System.out.println("hello")
+     void sayHello(String str){
+       printf("hello,%s",str)
     }
 }
