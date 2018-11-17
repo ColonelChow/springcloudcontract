@@ -51,12 +51,15 @@ class Hello {
          println "${list})"
          println list.size()
 
+         def close = {param->println "hello ${param}"}
+         close.call('world')
+         close.call('java')
 
     }
 
 
 
-    void sayHello(String str){
+    def sayHello(String str){
        printf("hello,%s%n",str)
     }
     def sayHello2(String str){
