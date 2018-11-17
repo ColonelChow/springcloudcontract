@@ -8,5 +8,6 @@ public class TestGroovy {
     public void  test(){
         Hello hello = new Hello();
         hello.sayHello("zhangsan");
+        System.out.println(hello.sayHello2("zhangsan"));
     }
 }
